@@ -1,65 +1,76 @@
-# ShipSafe 2 Trial
+# ShipSafe 2 Trial — Release Notes
 
-**Offline Risk Assessment and Permit to Work software for ships**
+## Pre-Release / Trial Build
 
-ShipSafe 2 is a Windows desktop application for creating professional **Risk Assessment** and **Permit to Work** documents for shipboard operations.
+Thank you for testing **ShipSafe 2 Trial**.
 
-It is designed for marine engineers, ship officers, safety officers, superintendents, HSEQ teams, small vessel operators, and maritime professionals who need a practical offline tool for creating, issuing, and tracking safety documents.
+ShipSafe 2 is a practical offline Windows desktop tool for shipboard **Risk Assessment** and **Permit to Work** documentation.
 
-ShipSafe 2 was built by a **Marine Chief Engineer with 17 years at sea**, based on real shipboard safety documentation experience.
+It is designed to help marine engineers, officers, safety personnel, HSEQ teams, technical superintendents, vessel operators, and small/medium maritime organizations create more structured documents, manage reusable activity templates, and keep a clearer history of issued records.
 
----
+**Important:** ShipSafe 2 is designed to support existing company Safety Management System (SMS) procedures. It does **not** replace a company SMS, company approval process, professional judgment, flag-state requirements, class requirements, or applicable maritime regulations.
 
-## Main Purpose
-
-ShipSafe 2 helps users:
-
-- Create professional **Risk Assessment** documents
-- Issue different types of **Permit to Work** documents
-- Use reusable activity safety templates
-- Manage hazards, consequences, and control measures
-- Keep a history of issued documents
-- Check whether issued output files remain unchanged after issuance
-- Work offline on a Windows computer without relying on cloud access
+This trial release is intended for evaluation, testing, feedback, and demonstration only.
 
 ---
 
 ## Important Trial Notice
 
-This repository provides a **Trial version** of ShipSafe 2.
+This is a **Trial Version**.
 
-Trial outputs may include visible watermarks such as:
+Documents generated in this version may include trial markings or watermarks such as:
 
-> Trial Version — Not valid for official use
+**Trial Version — Not valid for official use**
 
-Trial documents are intended for evaluation and demonstration only. They should not be used as official shipboard safety records.
+Trial outputs are provided so users can evaluate the workflow, layout, document quality, and document-tracking features before purchasing or activating a paid license.
 
-To use ShipSafe 2 without trial restrictions, please visit:
+Do not use trial outputs as official shipboard safety records unless your company or organization has reviewed and approved their use.
 
-**https://www.shipsafeapp.com/#home**
+Built-in templates are practical starting points only. They should be reviewed, adapted, and approved according to the company SMS, vessel procedures, flag requirements, operational risk controls, and the actual job conditions before official use.
 
 ---
 
-## Key Features
+## What ShipSafe 2 Helps With
 
-### Risk Assessment Creator
+ShipSafe 2 focuses on practical shipboard safety documentation work, especially where teams still rely on scattered Word files, Excel sheets, repeated forms, unclear folder structures, or inconsistent document history.
 
-Create structured Risk Assessment documents using activity-based templates.
+Main capabilities include:
 
-Each activity can include:
+- Create and issue **Risk Assessment** documents.
+- Create and issue multiple **Permit to Work** types.
+- Use reusable activity-based safety templates.
+- Edit and revise activity templates through the **Activity Editor**.
+- Generate printable HTML documents.
+- Keep a clear **History** of issued documents.
+- Use **Verified / Modified status** to help identify whether issued output files were changed after issue.
+- Work offline on a Windows computer.
+- Store working data locally on the user’s device.
 
-- Hazards
-- Consequences
-- Initial likelihood
-- Initial severity
-- Risk level
-- Standard control measures
-- Additional control measures
-- Professional printable output
+ShipSafe 2 is not a complete enterprise SMS platform. It is a focused offline documentation tool intended to support existing onboard and company procedures.
 
-### Permit to Work Creator
+---
 
-ShipSafe 2 includes multiple Permit to Work types, such as:
+## Risk Assessment System
+
+This trial build includes the core Risk Assessment workflow:
+
+- Activity-based Risk Assessment creation.
+- Hazard and consequence review.
+- Likelihood, severity, and risk level display.
+- Risk matrix support.
+- Standard control measures.
+- Additional control measures section.
+- Compact portrait-style printable output.
+- History registration after issue.
+- Verified / Modified document status tracking.
+
+The Risk Assessment output uses a structured format where hazard item numbers and control measure item numbers are intended to support traceability between identified hazards and related controls.
+
+---
+
+## Permit to Work System
+
+This build includes multiple Permit to Work forms, including:
 
 - General Permit to Work
 - Hot Work Permit
@@ -72,173 +83,175 @@ ShipSafe 2 includes multiple Permit to Work types, such as:
 - Pressure Testing Permit
 - Cold Work Permit
 
-### Activity Editor
+Permit outputs are designed for print-ready shipboard documentation, with manual signature areas instead of a digital signature pad.
 
-The Activity Editor is one of ShipSafe 2’s strongest features.
-
-It allows users to create and update reusable operational safety templates, including hazards, consequences, risk values, and standard control measures.
-
-This helps companies and vessel users turn routine shipboard safety procedures into reusable digital templates.
-
-### History and Integrity Verification
-
-ShipSafe 2 keeps a history of issued documents.
-
-Each issued document can be checked for integrity status:
-
-- **Verified** — the output file appears unchanged since issuance
-- **Modified** — the output file appears to have been changed after issuance
-- **Missing File** — the original output file cannot be found
-- **Not Verifiable** — the document cannot be verified
-
-This helps support audit, internal review, compliance, and document-control workflows.
-
-### Offline Windows App
-
-ShipSafe 2 is designed as an offline desktop application.
-
-Normal use does not require internet access. Your working data remains on the local Windows device.
+Permit to Work forms should always be used according to the company SMS, vessel procedures, permit control system, and actual operational conditions.
 
 ---
 
-## Quick Start
+## Activity Editor
 
-1. Download the latest ShipSafe 2 Trial ZIP file from this repository or from the release page.
-2. Extract the ZIP file to a normal folder on your Windows computer.
-3. Open the extracted folder.
-4. Run:
+The **Activity Editor** is one of the key features of ShipSafe 2.
 
-   ```text
-   ShipSafe2.exe
-   ```
+It allows users to create and maintain reusable activity templates for shipboard operations, including:
 
-5. Complete the initial setup if requested.
-6. Start from the Dashboard.
-7. Choose an activity to create a Risk Assessment, or choose a Permit to Work type.
-8. Issue the document and check it in History.
+- Activity title and description
+- Hazards
+- Consequences
+- Likelihood and severity values
+- Risk levels
+- Standard control measures
+- Activity revisions
+
+This helps turn repeated shipboard safety documentation routines into reusable digital templates.
+
+Templates created or modified in ShipSafe 2 should be checked and approved by the responsible company, vessel, or safety authority before official use.
 
 ---
 
-## System Requirements
+## History and Verified / Modified Status
 
-Recommended:
+When a document is issued, ShipSafe 2 records it in the History page.
+
+The document-tracking system helps identify whether an issued output file still matches the recorded file fingerprint.
+
+Typical states may include:
+
+- **Verified** — the issued output file appears unchanged since issue.
+- **Modified** — the output file appears to have changed after issue.
+- **Missing File** — the history record exists, but the output file cannot be found.
+- **Not Verifiable** — the document cannot currently be verified.
+
+This feature is intended to support document traceability and record review. It does not replace company audit procedures, official approval, or formal document-control requirements.
+
+---
+
+## Local Data Storage
+
+ShipSafe 2 is designed as an offline Windows desktop application.
+
+Working data is stored locally on the user’s Windows device, typically under the user’s local AppData folder. This may include:
+
+- database records
+- activity templates
+- issued document history
+- generated outputs
+- logs
+- application assets
+
+Users should regularly back up important data, especially before replacing the application with a newer build.
+
+---
+
+## Recommended System
+
+Recommended target environment:
 
 - Windows 10 or Windows 11
 - 64-bit system
-- Standard user access to the local AppData folder
+- Standard desktop/laptop screen
+- Local write permission for the user profile/AppData folder
 
-Not recommended:
-
-- Windows XP
-- Very old 32-bit Windows systems
+Older unsupported Windows versions may not work correctly.
 
 ---
 
-## Data Storage
+## How to Use This Trial
 
-ShipSafe 2 stores working data locally in the user’s Windows AppData folder.
+1. Download the ShipSafe 2 Trial ZIP file.
+2. Extract the ZIP file to a normal folder on your PC.
+3. Open the extracted folder.
+4. Run the ShipSafe 2 executable file.
+5. Complete any initial setup if requested.
+6. Create a Risk Assessment or Permit to Work document.
+7. Open the History page to check issued records and Verified / Modified status.
 
-Typical storage areas include:
-
-```text
-AppData\Local\ShipSafe2\db
-AppData\Local\ShipSafe2\outputs
-AppData\Local\ShipSafe2\logs
-AppData\Local\ShipSafe2\assets
-AppData\Local\ShipSafe2\backups
-```
-
-These may include:
-
-- Local database
-- Issued document records
-- Output HTML files
-- Integrity information
-- Logs
-- Company logo / branding assets
-- Backups
+Do not run the application directly from inside the ZIP file. Always extract it first.
 
 ---
 
-## Backups
+## Windows Security Notice
 
-Before relying on any safety documentation software, users should keep regular backups.
+Because ShipSafe 2 is an independent pre-release application and is not yet code-signed, Windows may show a security warning when you run it for the first time.
 
-ShipSafe 2 may include backup tools depending on the build. Backups are especially recommended before:
+This is common for new independent Windows applications. Only download ShipSafe 2 from the official ShipSafe website or the official GitHub release link.
 
-- Updating ShipSafe 2
-- Clearing records
-- Moving to another computer
-- Making large changes to activity templates
-- Issuing many official documents
+Official website:
+
+https://www.shipsafeapp.com/#home
 
 ---
 
-## License and Activation
+## Backup Recommendation
 
-ShipSafe 2 may run in Trial mode until activated.
+Before major testing, moving files, replacing the application, or creating many templates/documents, back up your ShipSafe 2 data if the build includes backup functionality.
 
-Paid activation may remove trial watermarks and unlock licensed behavior depending on the plan.
+Recommended backup moments:
 
-The activation process may require the user’s Machine ID. This helps bind the license to a specific Windows device.
-
-For license information, visit:
-
-**https://www.shipsafeapp.com/#home**
-
----
-
-## Suggested Use Cases
-
-ShipSafe 2 can support:
-
-- Engine room work planning
-- Hot work preparation
-- Enclosed space entry documentation
-- Bunkering and fuel transfer permits
-- Lifting operations
-- Electrical work permits
-- Line breaking operations
-- Pressure testing permits
-- Deck and machinery safety documentation
-- Internal safety review
-- Audit preparation
-- Vessel safety management documentation
+- before testing a new version
+- after creating important activity templates
+- after issuing several documents
+- before moving to another computer
+- before clearing records
 
 ---
 
-## Support
+## Known Trial Limitations
 
-When requesting support, please include:
+This trial build may have limitations compared with paid or activated versions, including:
 
-- A short description of the issue
-- The steps you took before the problem happened
-- Screenshots, if possible
-- Your ShipSafe 2 version
-- Your Windows version
-- Your Machine ID, if the issue is license-related
-- The log file, if requested
+- visible trial watermark or warning text on outputs
+- trial status shown inside the application
+- trial outputs not intended for official use
+- possible license/branding limitations depending on the build
+- user interface details may still receive final polish before full release
+
+---
+
+## Support and Feedback
+
+ShipSafe 2 is currently being improved based on real feedback from maritime professionals.
+
+When reporting an issue or giving feedback, please include:
+
+- short description of the problem or suggestion
+- what you were trying to do
+- steps to reproduce the issue, if applicable
+- screenshot if possible
+- Windows version
+- ShipSafe 2 version/build name
+- log file if requested
+
+For license or support requests, include your Machine ID if the application asks for it.
 
 Website:
 
-**https://www.shipsafeapp.com/#home**
+https://www.shipsafeapp.com/#home
 
 ---
 
-## Important Disclaimer
+## Intended Use and Responsibility
 
-ShipSafe 2 is a safety documentation tool.
+ShipSafe 2 is a safety documentation support tool.
 
-It does not replace the user’s professional judgment, company procedures, Safety Management System, flag-state requirements, class requirements, port regulations, charterer requirements, or applicable maritime regulations.
+It does not replace:
 
-The user remains responsible for checking, approving, and using all final Risk Assessment and Permit to Work documents correctly.
+- company Safety Management System procedures
+- company approval process
+- professional judgment
+- onboard supervision
+- permit authorization requirements
+- flag-state requirements
+- class requirements
+- charterer/vetting requirements
+- applicable maritime regulations
 
-Always follow your company’s official safety procedures and all applicable maritime rules.
+The user and the operating company remain responsible for checking, approving, and using the final Risk Assessment and Permit to Work content.
+
+Built-in templates and example workflows should be reviewed, customized, and approved according to the company SMS and actual vessel operation before official use.
+
+Trial outputs are for evaluation and demonstration unless separately approved by the user’s organization.
 
 ---
-
-## Copyright
 
 © ShipSafe 2
-
-All rights reserved.
